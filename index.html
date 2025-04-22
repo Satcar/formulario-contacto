@@ -7,14 +7,29 @@
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
+    <h1>Formulario de contacto</h1><hr>
 
     <form action="" method="get" name="form1">
 
-        <label for="fname">Nombre</label><br>
+        <label for="fname">Nombre</label>
         <input type="text" id="fname" name="fname" placeholder="Arnau"><br>
-        <label for="lname">Apellidos</label><br>
-        <input type="text" id="lname" placeholder="Satorra" name="lname">
-        <input type="submit" id="submit" name="submit">
+
+        <label for="lname">Apellidos</label>
+        <input required type="text" id="lname" placeholder="Satorra" name="lname"><br>
+
+        <label for="age">Edad</label>
+        <input type="number" id="age" name="age" placeholder="18" min="18"><br>
+
+        <label for="lname">Correo</label>
+        <input required type="email" id="email" placeholder="arnau@gmail.com" name="email"><br>
+
+        <label for="subject">Subject</label>
+        <input required type="text" id="email" placeholder="subject" name="email"><br>
+
+        <label for="lname">Comentarios</label>
+        <textarea name="" id="" maxlength="150"></textarea><br>
+
+        <input type="submit" id="submit" name="submit" value="Enviar"><br>
 
     </form>
     
